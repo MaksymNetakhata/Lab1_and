@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:text="@string/str_hello" />
+
+    <Button
+        android:id="@+id/button"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp"
+        android:baselineAligned="false"
+        android:text="Button"
+        android:textAlignment="center" />
+
+</LinearLayout>
